@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="860.0" prefWidth="1525.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.MemberHomeController">
+   <children>
+      <ImageView fitHeight="860.0" fitWidth="1525.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Recources/Member-Home.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="myinfo" layoutX="88.0" layoutY="144.0" mnemonicParsing="false" onAction="#gotomyinfo" opacity="0.02" prefHeight="51.0" prefWidth="164.0" text="myinfo" />
+      <Button fx:id="userplan" layoutX="88.0" layoutY="226.0" mnemonicParsing="false" onAction="#gotoplan" opacity="0.0" prefHeight="58.0" prefWidth="110.0" text="plan" />
+      <Button fx:id="user_askprofessional" layoutX="88.0" layoutY="316.0" mnemonicParsing="false" onAction="#gotoaskprofessional" opacity="0.0" prefHeight="51.0" prefWidth="367.0" text="ask-professional" />
+      <Button fx:id="userfeedbak" layoutX="88.0" layoutY="403.0" mnemonicParsing="false" onAction="#gotouserback" opacity="0.0" prefHeight="51.0" prefWidth="205.0" text="feedback" />
+      <Button fx:id="userrecourses" layoutX="86.0" layoutY="488.0" mnemonicParsing="false" onAction="#gotorecources" opacity="0.04" prefHeight="51.0" prefWidth="228.0" text="recources" />
+      <Button fx:id="usernotificatins" layoutX="88.0" layoutY="575.0" mnemonicParsing="false" onAction="#gotonotifications" opacity="0.01" prefHeight="51.0" prefWidth="268.0" text="notifications" />
+      <Button fx:id="user_mytrainer" layoutX="86.0" layoutY="660.0" mnemonicParsing="false" onAction="#gotomytrainer" opacity="0.0" prefHeight="51.0" prefWidth="234.0" text="my trainer" />
+      <Button fx:id="logout" layoutX="1329.0" layoutY="780.0" mnemonicParsing="false" onAction="#gotologout" opacity="0.0" prefHeight="30.0" prefWidth="158.0" text="logout" />
+   </children>
+</AnchorPane>

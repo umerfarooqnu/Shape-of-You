@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="860.0" prefWidth="1525.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.Trainerhomecontroller">
+   <children>
+      <ImageView pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Recources/TRAINER-Home.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="my_info" layoutX="90.0" layoutY="235.0" mnemonicParsing="false" onAction="#my_infoAction" opacity="0.0" prefHeight="52.0" prefWidth="163.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="tips" layoutX="90.0" layoutY="346.0" mnemonicParsing="false" onAction="#tipsAction" opacity="0.0" prefHeight="52.0" prefWidth="242.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="lectures" layoutX="89.0" layoutY="458.0" mnemonicParsing="false" onAction="#lecturesAction" opacity="0.0" prefHeight="52.0" prefWidth="194.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="qna" layoutX="89.0" layoutY="569.0" mnemonicParsing="false" onAction="#qnaAction" opacity="0.0" prefHeight="52.0" prefWidth="242.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="logout" layoutX="1325.0" layoutY="776.0" mnemonicParsing="false" onAction="#logoutAction" opacity="0.0" prefHeight="36.0" prefWidth="170.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="860.0" prefWidth="1525.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.MyinfoController">
+    <children>
+      <ImageView fitHeight="860.0" fitWidth="1525.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Recources/INFO%20USER.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="nametext" layoutX="235.0" layoutY="148.0" prefHeight="38.0" prefWidth="355.0" text="name" textFill="#efdf2c">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="age" layoutX="207.0" layoutY="218.0" prefHeight="38.0" prefWidth="355.0" text="your age" textFill="#efdf2c">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="weight" layoutX="261.0" layoutY="286.0" prefHeight="38.0" prefWidth="355.0" text="your weight" textFill="#efdf2c">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="height" layoutX="261.0" layoutY="368.0" prefHeight="38.0" prefWidth="355.0" text="your height" textFill="#efdf2c">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="goal" layoutX="235.0" layoutY="430.0" prefHeight="38.0" prefWidth="355.0" text="goal" textFill="#efdf2c">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="username" layoutX="319.0" layoutY="499.0" prefHeight="38.0" prefWidth="355.0" text="username" textFill="#efdf2c">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="userstastics" layoutX="100.0" layoutY="623.0" mnemonicParsing="false" onAction="#gotostastics" opacity="0.0" prefHeight="54.0" prefWidth="238.0" text="userstastics">
+         <font>
+            <Font size="49.0" />
+         </font></Button>
+      <Button fx:id="logout" layoutX="1319.0" layoutY="773.0" mnemonicParsing="false" onAction="#gotologout" opacity="0.0" prefHeight="42.0" prefWidth="185.0" text="logout" />
+      <Button fx:id="back" layoutX="8.0" layoutY="53.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="44.0" prefWidth="68.0" text="back" />
+   </children>
+</AnchorPane>

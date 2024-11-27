@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="860.0" prefWidth="1525.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.scene1controller">
+   <children>
+      <ImageView pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Recources/SHAPE%20OF%20YOU.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="signup" layoutX="96.0" layoutY="558.0" mnemonicParsing="false" onAction="#signupAction" opacity="0.0" prefHeight="61.0" prefWidth="242.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="login" layoutX="358.0" layoutY="562.0" mnemonicParsing="false" onAction="#loginAction" opacity="0.0" prefHeight="55.0" prefWidth="236.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Hyperlink fx:id="trainer_signup" layoutX="1276.0" layoutY="785.0" onAction="#Trainer_signupAction" text="Sign Up as Trainer">
+         <font>
+            <Font size="26.0" />
+         </font></Hyperlink>
+   </children>
+</AnchorPane>

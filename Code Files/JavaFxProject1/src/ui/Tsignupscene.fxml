@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="860.0" prefWidth="1525.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.Tsignupscenecontroller">
+   <children>
+      <ImageView pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Recources/SIGN-UP%20TRAINER.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="sign_up" layoutX="1324.0" layoutY="767.0" mnemonicParsing="false" onAction="#sign_upAction" opacity="0.0" prefHeight="54.0" prefWidth="157.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="back" layoutX="14.0" layoutY="42.0" mnemonicParsing="false" onAction="#backAction" opacity="0.0" prefHeight="61.0" prefWidth="58.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="Name" layoutX="522.0" layoutY="187.0" prefHeight="40.0" prefWidth="400.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Specializtion" layoutX="522.0" layoutY="265.0" prefHeight="40.0" prefWidth="400.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Experience" layoutX="522.0" layoutY="339.0" prefHeight="40.0" prefWidth="400.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="UserName" layoutX="522.0" layoutY="494.0" prefHeight="40.0" prefWidth="400.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="Password" layoutX="522.0" layoutY="571.0" prefHeight="40.0" prefWidth="400.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </PasswordField>
+      <PasswordField fx:id="Confirm_Password" layoutX="522.0" layoutY="649.0" prefHeight="40.0" prefWidth="400.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </PasswordField>
+      <MenuButton fx:id="Availability" layoutX="522.0" layoutY="417.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="400.0" text="Availability">
+        <items>
+                <MenuItem text="YES" onAction="#menuItemAction" />
+      			<MenuItem text="NO" onAction="#menuItemAction" />
+        </items>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </MenuButton>
+   </children>
+</AnchorPane>

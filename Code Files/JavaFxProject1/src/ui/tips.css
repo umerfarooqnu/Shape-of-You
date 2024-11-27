@@ -1,0 +1,64 @@
+/* style.css */
+
+/* Base styling for each ListView cell */
+.list-cell {
+    -fx-font-size: 25px;              /* Larger text for better readability */
+    -fx-padding: 15px;                /* Increased padding for more space around text */
+    -fx-border-color: #e0e0e0;        /* Lighter border for soft separation */
+    -fx-border-width: 1px;
+    -fx-background-color: #ffffff;    /* White background for each item */
+    -fx-background-radius: 10px;      /* Rounded corners */
+    -fx-text-fill: #333333;           /* Dark text for contrast */
+    -fx-font-family: "Segoe UI", sans-serif; /* Clean font */
+    -fx-effect: dropshadow(gaussian, #aaaaaa, 5, 0.0, 2, 2); /* Drop shadow for depth */
+}
+
+/* Hover effect for each ListView cell */
+.list-cell:hover {
+    -fx-background-color: #f0f8ff;    /* Light blue hover effect */
+    -fx-text-fill: #000000;            /* Dark text on hover */
+    -fx-cursor: hand;                  /* Hand cursor on hover */
+    -fx-effect: dropshadow(gaussian, #b0c4de, 5, 0.0, 2, 2); /* Hover shadow effect */
+}
+
+/* Odd rows have a light background */
+.list-cell:odd {
+    -fx-background-color: #f9f9f9;    /* Light gray background for odd rows */
+}
+
+/* Even rows have a slightly darker background */
+.list-cell:even {
+    -fx-background-color: #f1f1f1;    /* Light gray background for even rows */
+}
+
+/* Add some spacing and shadow to the entire ListView */
+.list-view {
+    -fx-background-color: #fafafa;      /* Soft background color for the entire ListView */
+    -fx-border-color: #cccccc;          /* Light border color */
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;            /* Rounded corners for the whole ListView */
+    -fx-padding: 10px;                  /* Padding around the entire ListView */
+    -fx-effect: dropshadow(gaussian, #bbbbbb, 5, 0.0, 2, 2); /* Soft shadow around the list */
+}
+
+/* Styling for the scroll bars (optional, for better aesthetics) */
+.scroll-bar {
+    -fx-background-color: #006400;
+    -fx-background-insets: 0, 1;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #32cd32;
+    -fx-background-radius: 5px;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #228b22;
+}
+
+/* Styling for the ListView when it's empty (optional) */
+.list-view:empty {
+    -fx-background-color: transparent;  /* Transparent background when empty */
+    -fx-border-color: #006400;          /* Dark green border when empty */
+    -fx-text-fill: #000000;             /* Black text for empty message */
+}
